@@ -8,6 +8,7 @@ import AnimatedTitle from "./AnimatedTitle";
 gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
+
   // background image animation...
   useGSAP(() => {
     const clipAnimation = gsap.timeline({
@@ -35,6 +36,7 @@ const About = () => {
           Welcom to Zentry
         </h2>
 
+        {/* Animated text... */}
         <AnimatedTitle
           title="Disc<b>o</b>ver the w<b>o</b>rlds <br /> l<b>a</b>rgest sh<b>a</b>red <b>a</b>dventure"
            containerClass="mt-5 !text-black text-center"
