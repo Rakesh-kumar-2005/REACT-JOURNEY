@@ -4,7 +4,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import AnimatedTitle from "./AnimatedTitle";
 
-// Enabling the ScrollTrigger plugin
+// Enabling the ScrollTrigger plugin...
 gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
