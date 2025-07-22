@@ -178,10 +178,6 @@ body {
   }
 }
 
-.product-button{
-  @apply transition-all duration-500 ease-in-out bg-white text-black hover:bg-yellow-300 hover:scale-105 hover:font-bold hover:rounded-full;
-}
-
 .navItems{
   @apply transition-all duration-300 hover:font-semibold hover:text-yellow-300                                hover:scale-105;
 }

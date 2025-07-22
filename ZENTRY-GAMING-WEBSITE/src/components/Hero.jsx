@@ -7,9 +7,7 @@ import { ScrollTrigger } from "gsap/all";
 import VideoPreview from "./VideoPreview";
 gsap.registerPlugin(ScrollTrigger);
 
-
 const arr = ["GAMING", "IDENTITY", "REALITY", "AGENTIC AI"];
-
 
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(1);
@@ -91,6 +89,19 @@ const Hero = () => {
     });
   });
 
+  const subHead = () => {
+  if (currentIndex === 1) {
+    return <>i<b>d</b>e<b>n</b>tit<b>y</b></>;
+  } else if (currentIndex === 2) {
+    return <>re<b>a</b>lit<b>y</b></>;
+  } else if(currentIndex === 3){
+    return <><b>a</b>ge<b>n</b>t<b>i</b>c <b>a</b>i</>;
+  }else{
+     return <>g<b>a</b>mi<b>n</b>g</>;
+  }
+};
+
+
   return (
     <div className="relative h-dvh w-screen overflow-x-hidden">
       {isLoading && (
@@ -146,7 +157,6 @@ const Hero = () => {
             loop
             autoPlay
             muted
-            // id="current-video"
             className="absolute left-0 top-0 size-full object-cover object-center"
             onLoadedData={handleVideoLoad}
           />
@@ -156,7 +166,7 @@ const Hero = () => {
           style={{ letterSpacing: "0.3rem" }}
           className="special-font hero-heading absolute bottom-5 right-5 z-40 text-blue-75"
         >
-          {arr[currentIndex % 4]}
+          {subHead()}
         </h1>
 
         <div className="absolute left-0 top-0 z-40 size-full">
@@ -176,32 +186,20 @@ const Hero = () => {
               id="watch-trailer"
               title="Watch Trailer"
               leftIcon={<TiLocationArrow />}
-              containerClass="bg-yellow-300 flex-center gap-1 transition-all hover:scale-105 hover:font-bold hover:translate-y-1 hover:translate-x-1"
+              containerClass="bg-yellow-300 flex-center gap-1 transition-all duration-300 ease-in-out hover:translate-y-2 hover:font-bold hover:translate-x-2 hover:bg-black hover:text-yellow-300 hover:border-2 hover:border-yellow-300"
             />
           </div>
         </div>
-        <div className="absolute left-0 top-0  size-full">
-          <div className="mt-24 px-5 sm:px-10">
-            <h1
-              style={{ letterSpacing: "0.3rem" }}
-              className="special-font hero-heading text-black"
-            >
-              redefi<b>n</b>e
-            </h1>
-
-          </div>
-        </div>
       </div>
-    
+
       <h1
         style={{ letterSpacing: "0.3rem" }}
         className="special-font hero-heading absolute bottom-5 right-5  text-black"
       >
-        {arr[currentIndex % 4]}
+        {subHead()}
       </h1>
     </div>
   );
-
 };
 
 export default Hero;

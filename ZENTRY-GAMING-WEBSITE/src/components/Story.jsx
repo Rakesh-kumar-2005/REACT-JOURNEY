@@ -55,7 +55,7 @@ const FloatingImage = () => {
         <div className="relative size-full">
           <AnimatedTitle
             title="t<b>h</b>e st<b>o</b>ry <b>o</b>f <br /> <b>a</b> hidde<b>n</b> re<b>a</b>l<b>m</b>"
-            containerClass="mt-5 pointer-events-none mix-blend-difference relative z-10"
+            containerClass="mt-5 mb-8 pointer-events-none mix-blend-difference relative z-10"
           />
 
           <div className="story-img-container">
@@ -104,8 +104,8 @@ const FloatingImage = () => {
         </div>
 
         <div className="-mt-80 flex w-full justify-center md:-mt-64 md:me-44 md:justify-end">
-          <div className="flex h-full w-fit flex-col items-center md:items-start">
-            <p className="mt-3 max-w-sm text-center text-sm font-circular-web text-violet-50 md:text-start">
+          <div className="flex h-full w-fit flex-col items-center md:items-start text-gray-400">
+            <p className="mt-3 max-w-sm text-center text-sm font-circular-web md:text-start">
               Where realms converge, lies Zentry and the boundless pillar.
               Discover its secrets and shape your fate amidst infinite
               opportunities.
@@ -114,7 +114,7 @@ const FloatingImage = () => {
             <Button
               id="realm-btn"
               title="discover prologue"
-              containerClass="mt-5 hover:scale-105 !font-zentry hover:cursor-pointer transition-all hover:bg-yellow-300 hover:font-bold"
+              containerClass="mt-5 hover:translate-y-2 !font-zentry hover:cursor-pointer transition duration-300 hover:bg-black hover:font-bold hover:text-white hover:border-2 "
             />
           </div>
         </div>

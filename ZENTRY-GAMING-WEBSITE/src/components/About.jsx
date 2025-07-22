@@ -32,15 +32,18 @@ const About = () => {
   return (
     <div id="about" className="min-h-screen w-screen">
       <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
+       
         <h2 className="font-general text-sm uppercase md:text-[10px]">
           Welcom to Zentry
         </h2>
 
         {/* Animated text... */}
         <AnimatedTitle
-          title="Disc<b>o</b>ver the w<b>o</b>rlds <br /> l<b>a</b>rgest sh<b>a</b>red <b>a</b>dventure"
+          title="<b>d</b>isc<b>o</b>ver t<b>h</b>e w<b>o</b>rl<b>d</b>s <br /> l<b>a</b>rg<b>e</b>st sh<b>a</b>re<b>d</b> <b>a</b>dve<b>n</b>t<b>u</b>re"
            containerClass="mt-5 !text-black text-center"
         />
+
+       
 
         <div className="about-subtext">
           <p>The Game of Games begins-your life, now an epic MMORPG</p>
@@ -51,8 +54,11 @@ const About = () => {
       </div>
 
 
-      <div className="h-dvh w-screen" id="clip">
-        <div className="mask-clip-path about-image">
+      <div className="h-dvh w-screen overflow-hidden" id="clip">
+         <div className="absolute -top-[210px] -left-[400px] h-full w-[2000px] z-40 overflow-hidden">
+           <img src="img/stones.webp" className="left-0  top-0 object-fill" />
+        </div>
+        <div className="mask-clip-path about-image border-black border-2">
           <img
             src="img/about.webp"
             alt="Background Image"
