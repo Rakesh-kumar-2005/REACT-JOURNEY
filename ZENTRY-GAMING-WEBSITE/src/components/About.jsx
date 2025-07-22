@@ -32,7 +32,7 @@ const About = () => {
   return (
     <div id="about" className="min-h-screen w-screen">
       <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
-       
+
         <h2 className="font-general text-sm uppercase md:text-[10px]">
           Welcom to Zentry
         </h2>
@@ -43,7 +43,6 @@ const About = () => {
            containerClass="mt-5 !text-black text-center"
         />
 
-       
 
         <div className="about-subtext">
           <p>The Game of Games begins-your life, now an epic MMORPG</p>
@@ -53,11 +52,15 @@ const About = () => {
         </div>
       </div>
 
-
+      {/* Photos... */}
       <div className="h-dvh w-screen overflow-hidden" id="clip">
+
+        {/* Stone Pictures... */}
          <div className="absolute -top-[210px] -left-[400px] h-full w-[2000px] z-40 overflow-hidden">
            <img src="img/stones.webp" className="left-0  top-0 object-fill" />
         </div>
+
+        {/* Background Image... */}
         <div className="mask-clip-path about-image border-black border-2">
           <img
             src="img/about.webp"
