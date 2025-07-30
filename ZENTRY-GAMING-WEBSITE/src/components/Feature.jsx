@@ -118,7 +118,7 @@ const Feature = () => {
                 r<b>a</b>dia<b>n</b>t
               </>
             }
-            description="A cross platform Metagame app, turning your activites across web2 and web3 games into a rewarding adventure."
+            description="A cross platform Metagame app, turning your activities across web2 and web3 games into a rewarding adventure."
             isComingSoon={true}
           />
         </BentoTilt>

@@ -5,9 +5,8 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import VideoPreview from "./VideoPreview";
-gsap.registerPlugin(ScrollTrigger);
 
-const arr = ["GAMING", "IDENTITY", "REALITY", "AGENTIC AI"];
+gsap.registerPlugin(ScrollTrigger);
 
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(1);
@@ -89,6 +88,7 @@ const Hero = () => {
     });
   });
 
+  // Sub Head for different video files...
   const subHead = () => {
   if (currentIndex === 1) {
     return <>i<b>d</b>e<b>n</b>tit<b>y</b></>;
