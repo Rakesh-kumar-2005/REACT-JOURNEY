@@ -102,7 +102,7 @@ npm run dev
 
 ## 📌 License
 
-This project is open-source and available for personal use. Original design credits go to the creators of the [Zentry](https://zentry.io) gaming platform.
+This project is open-source and available for personal use. Original design credits go to the creators of the [Zentry](https://zentry.com) gaming platform.
 
 ---
 
