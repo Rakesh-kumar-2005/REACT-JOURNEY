@@ -7,6 +7,7 @@ const BentoTilt= ({children, className = ''}) => {
 
     const itemref = useRef();
 
+    // Handle mouse move...
     const handleMouseMove = (e) => {
         if(!itemref.current){
             return;
@@ -26,6 +27,7 @@ const BentoTilt= ({children, className = ''}) => {
 
     };
 
+    // Handle mouse leave...
     const handleMouseLeave = () => {
         setTransformStyle('');
     };
@@ -37,6 +39,7 @@ const BentoTilt= ({children, className = ''}) => {
     );
 };
 
+// Bento Card...
 export const BentoCard = ({ src, title, description, isComingSoon }) => {
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
   const [hoverOpacity, setHoverOpacity] = useState(0);
