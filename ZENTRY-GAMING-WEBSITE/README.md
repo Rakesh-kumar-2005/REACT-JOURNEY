@@ -21,14 +21,15 @@ This is a **fully responsive clone** of the popular **Zentry gaming website**, b
 > You can add them below by using the following format:
 
 ```markdown
-### 🗼️ Homepage Preview
-![Homepage](public/ss/ss1.png)
+
+### 🗼 Homepage Preview
+![Homepage](https://raw.githubusercontent.com/Rakesh-kumar-2005/REACT-JOURNEY/main/ZENTRY-GAMING-WEBSITE/public/ss/ss1.png)
 
 ### 🎮 Feature Section Preview
-![Game Section](public/ss/ss2.png)
+![Game Section](https://raw.githubusercontent.com/Rakesh-kumar-2005/REACT-JOURNEY/main/ZENTRY-GAMING-WEBSITE/public/ss/ss2.png)
 
-### 📱 About Section View
-![Mobile View](public/ss/ss3.png)
+### 🏙️ About Section View
+![Mobile View](https://raw.githubusercontent.com/Rakesh-kumar-2005/REACT-JOURNEY/main/ZENTRY-GAMING-WEBSITE/public/ss/ss3.png)
 ```
 
 ---
