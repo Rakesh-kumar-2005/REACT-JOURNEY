@@ -17,7 +17,7 @@ This is a **fully responsive clone** of the popular **Zentry gaming website**, b
 
 ## 📸 Screenshots
 
-> Screenshots of the project are located in the `/public/ss` folder.
+> Screenshots of the project are located in the `/public/screenshots` folder.
 > You can add them below by using the following format:
 
 
@@ -108,11 +108,7 @@ This project is open-source and available for personal use. Original design cred
 
 ## 🙌 Acknowledgments
 
-* Inspired by [Zentry.io](https://zentry.io)
+* Inspired by [Zentry.com](https://zentry.com)
 * Special thanks to GSAP, Tailwind CSS, and the React community
 
 ---
-
-## 🔗 Live Website
-
-➡️ [Visit the Website](https://zentry-game-clone.netlify.app)
