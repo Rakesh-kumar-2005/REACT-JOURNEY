@@ -20,17 +20,15 @@ This is a **fully responsive clone** of the popular **Zentry gaming website**, b
 > Screenshots of the project are located in the `/public/ss` folder.
 > You can add them below by using the following format:
 
-```markdown
 
 ### 🗼 Homepage Preview
-![Homepage](https://raw.githubusercontent.com/Rakesh-kumar-2005/REACT-JOURNEY/main/ZENTRY-GAMING-WEBSITE/public/ss/ss1.png)
+![Homepage](https://raw.githubusercontent.com/Rakesh-kumar-2005/REACT-JOURNEY/main/ZENTRY-GAMING-WEBSITE/public/screenshots/ss1.png)
 
 ### 🎮 Feature Section Preview
-![Game Section](https://raw.githubusercontent.com/Rakesh-kumar-2005/REACT-JOURNEY/main/ZENTRY-GAMING-WEBSITE/public/ss/ss2.png)
+![Game Section](https://raw.githubusercontent.com/Rakesh-kumar-2005/REACT-JOURNEY/main/ZENTRY-GAMING-WEBSITE/public/screenshots/ss2.png)
 
 ### 🏙️ About Section View
-![Mobile View](https://raw.githubusercontent.com/Rakesh-kumar-2005/REACT-JOURNEY/main/ZENTRY-GAMING-WEBSITE/public/ss/ss3.png)
-```
+![Mobile View](https://raw.githubusercontent.com/Rakesh-kumar-2005/REACT-JOURNEY/main/ZENTRY-GAMING-WEBSITE/public/screenshots/ss3.png)
 
 ---
 
