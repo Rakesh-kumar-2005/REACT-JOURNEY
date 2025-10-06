@@ -20,7 +20,6 @@ This is a **fully responsive clone** of the popular **Zentry gaming website**, b
 > Screenshots of the project are located in the `/public/screenshots` folder.
 > You can add them below by using the following format:
 
-
 ### 🗼 Homepage Preview
 ![Homepage](https://raw.githubusercontent.com/Rakesh-kumar-2005/REACT-JOURNEY/main/ZENTRY-GAMING-WEBSITE/public/screenshots/ss1.png)
 
